@@ -1,0 +1,37 @@
+import React from 'react';
+import {StyleSheet, TouchableOpacity, Text} from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
+
+export function Account(props)
+{
+    return(
+        <TouchableOpacity style = {[styles.container, {backgroundColor : props.color}]}>
+            <Icon style = {styles.accIcon} name = {props.icon} />
+            <Text style = {styles.textTilte}>{props.title}</Text>
+        </TouchableOpacity>
+    );   
+}
+
+const styles = StyleSheet.create({
+    container : {
+        flexDirection : 'row',
+        width : 135,
+        height : 45,
+        marginHorizontal : 10,
+        marginVertical : 10,
+        borderRadius : 5    
+    },
+    accIcon : {
+        color : 'white',
+        fontSize : 20,
+        marginVertical : 10,
+        marginHorizontal : 10,
+    },
+    textTilte : {
+        color : 'white',
+        fontWeight : 'bold',
+        fontSize : 18,
+        marginVertical : 10,
+        marginHorizontal : 5,
+    }
+});

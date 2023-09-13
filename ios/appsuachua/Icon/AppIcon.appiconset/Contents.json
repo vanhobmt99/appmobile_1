@@ -1,0 +1,28 @@
+{
+  "images" : [
+    {
+      "filename" : "1024-1.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "filename" : "1024-1 2.png",
+      "idiom" : "universal",
+      "language-direction" : "left-to-right",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "filename" : "1024-1 3.png",
+      "idiom" : "universal",
+      "language-direction" : "right-to-left",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
